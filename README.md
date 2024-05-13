@@ -1,12 +1,12 @@
 
 # Microchip ATECC508A
-  
-This is a HighLevelAnalyzer Extension for Saleae Logic2 to decode I2C messages sent to and from the CryptoAuthentication Device [ATECC508A](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005928A.pdf) from Microchip.
 
-This extension is parsing the I2C communication for the ATECC508A. If the read and write commands are using the built in XOR encryption it is also encrypting and decrypting the content.
+This is a HighLevelAnalyzer Extension for Saleae Logic 2 to decode I2C messages sent to and from the secure element [ATECC508A](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005928A.pdf) from Microchip, which can for example be used for cryptographically secure authentication.
+
+This extension is parsing the I2C communication for the ATECC508A. If the read and write commands are using the built-in XOR encryption, it is also encrypting and decrypting the content.
 
 Example results are printed to the Terminal view and the Data Table.
-![Terminal View](images/terminalView.png) 
+![Terminal View](images/terminalView.png)
 ![Data Table](images/dataTable.png)
 
 ## Usage
@@ -18,4 +18,4 @@ If encryption is used, insert the 32 Bytes I2C read key and the 32 Bytes I2C wri
 
 
 ## Limitations
-Not all functions of the chip are implemented in the Extension. The focus was on the decryption of the read and write commands and getting an overview over the communication.
+Not all functions of the chip are implemented in the extension. The focus was on the decryption of the read and write commands and getting an overview over the communication.

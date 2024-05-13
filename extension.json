@@ -2,7 +2,7 @@
   "name": "Microchip ATECC508A",
   "apiVersion": "1.1.0",
   "author": "SySS GmbH",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "High Level Analyzer for the Microchip ATECC508A I2C Communication with support for I2C encryption",
   "extensions": {
     "Microchip ATECC508A": {
