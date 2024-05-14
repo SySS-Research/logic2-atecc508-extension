@@ -16,6 +16,16 @@ If encryption is used, insert the 32 Bytes I2C read key and the 32 Bytes I2C wri
 
 ![Settings Dialog](images/settings.png)
 
-
 ## Limitations
 Not all functions of the chip are implemented in the extension. The focus was on the decryption of the read and write commands and getting an overview over the communication.
+
+# Credits
+
+Tobias Jäger, SySS GmbH
+
+Manuel Stotz, SySS GmbH
+
+License
+-------
+
+MIT License
